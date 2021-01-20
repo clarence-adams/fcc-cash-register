@@ -27,7 +27,7 @@ function checkCashRegister(price, cash, cid) {
       }
 
       if (currencyCount > 0) {
-        change.push([cid[i][0], (currencies[i] / 100)* currencyCount]);
+        change.push([cid[i][0], (currencies[i] / 100) * currencyCount]);
       }
     }
 
